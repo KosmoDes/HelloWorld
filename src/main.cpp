@@ -3,10 +3,14 @@
 #include <string>
 #include <map>
 
-std::map<std::string, int>  commands = {std::pair<std::string, int>("HelloWorld!", 0)};
+std::map<std::string, int>  commands = {std::pair<std::string, int>("HelloWorld!", 0),
+                                        std::pair<std::string, int>("hello", 1),
+                                        std::pair<std::string, int>("world!", 2)};
 std::string keywords[] = {"Hello", "World!"};
 
 void HelloWorld();
+void hello();
+void world();
 
 void useCommand(int command) {
     switch (command)
@@ -14,7 +18,14 @@ void useCommand(int command) {
     case 0:
         HelloWorld();
         break;
+    case 1:
+        hello();
+        break;
     
+    case 2:
+        world();
+        break;
+
     default:
         break;
     }
@@ -64,5 +75,13 @@ int main(int arc, char *argv[]) {
 }
 
 void HelloWorld(){
-    std::cout << "Hello World!\n";
+    std::cout << "Hello World!";
+}
+
+void hello(){
+    std::cout << ' ';
+}
+
+void world(){
+    std::cout << '\n';
 }

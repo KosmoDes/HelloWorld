@@ -1,6 +1,6 @@
-^C:\USERS\LUBIMKA\DOCUMENTS\PROJECTS\PROG\VERYVERYIMPORTANT\BUILD\CMAKEFILES\94ABA665EB8D675C4170AAF9D3E765F1\GENERATE.STAMP.RULE
+^C:\USERS\LUBIMKA\DOCUMENTS\PROJECTS\PROG\HELLOWORLD\BUILD\CMAKEFILES\07CBC32F0D0D634F9CF140EE6ADF73E3\GENERATE.STAMP.RULE
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Lubimka/Documents/projects/prog/VeryVeryImportant -BC:/Users/Lubimka/Documents/projects/prog/VeryVeryImportant/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Lubimka/Documents/projects/prog/VeryVeryImportant/build/helloworld.sln
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Lubimka/Documents/projects/prog/HelloWorld -BC:/Users/Lubimka/Documents/projects/prog/HelloWorld/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Lubimka/Documents/projects/prog/HelloWorld/build/helloworld.sln
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
